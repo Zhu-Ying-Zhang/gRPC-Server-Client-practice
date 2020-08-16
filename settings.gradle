@@ -1,0 +1,5 @@
+rootProject.name = 'Somatt'
+include 'gRPC-server'
+include 'gRPC-client'
+include 'gRPC-lib'
+
