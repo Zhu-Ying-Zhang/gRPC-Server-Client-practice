@@ -16,3 +16,4 @@ gRPC-lib/
 .cxx
 gRPC-server/build
 gRPC-client/build
+gRPC-lib/src/main/.DS_Store
