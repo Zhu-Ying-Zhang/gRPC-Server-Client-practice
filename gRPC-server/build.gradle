@@ -17,4 +17,4 @@ dependencies {
 }
 
 applicationName = 'server'
-mainClassName = 'HelloServer'
+mainClassName = 'gRPCServer'
