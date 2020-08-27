@@ -30,7 +30,7 @@ public class HelloClient {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        HelloClient client = new HelloClient("192.168.0.16", 8080);
+        HelloClient client = new HelloClient("10.107.83.67", 8080);
 
         try {
             client.createHello();

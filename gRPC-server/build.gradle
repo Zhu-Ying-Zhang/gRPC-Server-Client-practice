@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'og.somatt'
@@ -14,3 +15,6 @@ repositories {
 dependencies {
     implementation project(':gRPC-lib')
 }
+
+applicationName = 'server'
+mainClassName = 'HelloServer'
