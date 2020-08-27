@@ -5,7 +5,7 @@ plugins {
 startScripts.enabled = false
 
 task helloWorldServer(type: CreateStartScripts) {
-    mainClassName = 'HelloServer'
+    mainClassName = 'gRPCServer'
     applicationName = 'server'
     outputDir = new File(project.buildDir, 'tmp')
     classpath = startScripts.classpath
